@@ -5,13 +5,13 @@ To run, first install MySQL. On OSX:
 ```
 > brew install mysql
 ``` 
-Start MySQL and create a database named `apollodemo`
+Start MySQL and create a database named `meteor-mysql`
 
 ```
 > mysql.server start
 > mysql -u root
 
-mysql>  CREATE DATABASE apollodemo;
+mysql>  CREATE DATABASE meteor-mysql;
 ```
 
 ## Run the app
@@ -23,9 +23,9 @@ First clone this repository, if you haven't already. Then run the app.
 You can view the app at `http://localhost:3000/` or the built in graphiqql browser at `http://localhot:3000/graphiql`
 
 ## Insert Records
-The app creates the table `posts` in the `apollodemo` database but does not add any records. Do so now in the `mysql` CLI, 
+The app creates the table `posts` in the `meteor-mysql` database but does not add any records. Do so now in the `mysql` CLI, 
 ```
-mysql> USE apollodemo;
+mysql> USE meteor-mysql;
 mysql> insert into posts (content, views) values ("hello world", 5);
 ```
 

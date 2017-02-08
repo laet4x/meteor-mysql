@@ -34,7 +34,7 @@ export default class Header extends Component {
                                     icon={<Home />}
                                   />
                                  <FlatButton
-                                    href="/about"
+                                    href="/post"
                                     label="Label before"
                                     backgroundColor="#2196F3"
                                     labelPosition="before"

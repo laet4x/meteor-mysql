@@ -3,10 +3,10 @@
  */
 import React, { Component } from 'react';
 import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router';
-import Root from './Root';
-import Home from './Home';
-import Header from './Header';
-import Footer from './Footer';
+import Root from '/client/components/Root';
+import Home from '/client/components/Home';
+import Header from '/client/components/Header';
+import Footer from '/client/components/Footer';
 
 import PostsContainer from './postsContainer';
 

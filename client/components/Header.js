@@ -30,12 +30,12 @@ export default class Header extends Component {
                                     href="/"
                                     backgroundColor="#2196F3"
                                     labelPosition="before"
-                                    label="GitHub Link"
+                                    label="Home"
                                     icon={<Home />}
                                   />
                                  <FlatButton
                                     href="/post"
-                                    label="Label before"
+                                    label="Post"
                                     backgroundColor="#2196F3"
                                     labelPosition="before"
                                     icon={<ActionAndroid />}

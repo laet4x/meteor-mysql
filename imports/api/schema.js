@@ -1,12 +1,12 @@
 export default typeDefs = [`
-type Post {
+type Posts {
   id: Int
   content: String
   views: Int
 }
 
 type Query {
-  posts(views: Int): [Post]
+  posts(views: Int): [Posts]
 }
 
 schema {

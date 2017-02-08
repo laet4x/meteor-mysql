@@ -1,5 +1,5 @@
 {
-  "name": "apollo-demo",
+  "name": "meteor-mysql",
   "private": true,
   "scripts": {
     "start": "meteor run"
@@ -13,11 +13,16 @@
     "graphql-tag": "^0.1.13",
     "graphql-tools": "^0.6.6",
     "graphql-typings": "0.0.1-beta-2",
+    "material-ui": "^0.16.7",
     "meteor-node-stubs": "~0.2.0",
     "mysql": "^2.11.1",
+    "pg": "^6.1.2",
+    "pg-hstore": "^2.3.2",
     "react": "^15.3.1",
     "react-apollo": "^0.5.2",
     "react-dom": "^15.3.1",
+    "react-router": "^3.0.2",
+    "react-tap-event-plugin": "^1.0.0",
     "sequelize": "^3.24.2"
   }
 }

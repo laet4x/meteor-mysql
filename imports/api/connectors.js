@@ -7,7 +7,7 @@ const db = new Sequelize('apollodemo', "root", null, {
 });
 
 // define the model
-const PostModel = db.define('post', {
+const PostModel = db.define('posts', {
     content: { type: Sequelize.STRING },
     views: {type: Sequelize.INTEGER}
 }, {
@@ -18,5 +18,5 @@ const PostModel = db.define('post', {
 db.sync();
 
 // export Post
-const Post = db.models.post;
-export { Post };
+const Posts = db.models.posts;
+export { Posts };

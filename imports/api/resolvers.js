@@ -1,12 +1,12 @@
 
-import { Post } from './connectors';
+import { Posts } from './connectors';
 
 // create the resolve functions for the available GraphQL queries
 export default resolvers = {
 
     Query: {
         posts(_, args){
-            return Post.findAll({where: args});
+            return Posts.findAll({where: args});
         },
     }
 };
